@@ -1,0 +1,140 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+.inline-block {
+  display: inline-block;
+  vertical-align: top;
+  background-color: #AA98CB;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.logo {
+  width: 100%;
+  height: 50px;
+  padding-bottom: 0.5%;
+  text-align: left;
+  background-color: #AA98CB;
+}
+
+.logoimg {
+  width: 80px;
+  height: auto;
+}
+
+.nav {
+  width: 85%;
+  padding: 1px;
+  background-color: #AA98CB;
+  height:1px;
+  text-align: right;
+}
+
+.ul {
+  width: 50%;
+  margin-left: auto;
+  height:1px;
+  background-color: #AA98CB;
+}
+
+.nav-link {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+h1 {font-size: 50px;}
+p {font-size: 25px;}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  background: url("../images/flowers.png") no-repeat;
+  height:400px;
+  padding: 50px;
+  background-size:cover;
+  color: #F2E7DC;
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.case-study-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height:80px;
+  padding: 50px;
+  background-size:cover;
+  background-color: #5B536B;
+  color: #F2E7DC;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+  background-color: #AA98CB;
+}
+
+.footer-block {
+  display:inline-block;
+  vertical-align: top;
+  padding: 1px;
+  width:95%;
+  line-height:30px;
+}
+
+.footerpic {
+  width: 30px;
+  height: auto;
+  cursor: pointer;
+}
+
+.flex-footer {
+  display: flex;
+  justify-content: end;
+  align-items: top;
+  flex-direction: row;
+  vertical-align: top;
+  background-color: #AA98CB;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  list-style: none;
+}
+
+.case-studies {
+  display: grid;
+  width:100%;
+  height:2000px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  background-color: #F2E7DC;
+  grid-template-areas:
+    "FT DOL DOL"
+    "FT DOL DOL"
+    "ACA ACA ACA"
+}
+
+.FT {
+  padding: 10px;
+  grid-area: FT;
+  width: fit-content;
+}
+
+.ACA {
+  padding: 10px;
+  grid-area: ACA;
+  width: fit-content;
+}
+
+.DOL {
+  padding: 10px;
+  grid-area: DOL;
+  width: fit-content;
+}
