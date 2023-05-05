@@ -107,3 +107,34 @@ footer {
   font-weight: bold;
   list-style: none;
 }
+
+.case-studies {
+  display: grid;
+  width:100%;
+  height:2000px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  background-color: #F2E7DC;
+  grid-template-areas:
+    "FT DOL DOL"
+    "FT DOL DOL"
+    "ACA ACA ACA"
+}
+
+.FT {
+  padding: 10px;
+  grid-area: FT;
+  width: fit-content;
+}
+
+.ACA {
+  padding: 10px;
+  grid-area: ACA;
+  width: fit-content;
+}
+
+.DOL {
+  padding: 10px;
+  grid-area: DOL;
+  width: fit-content;
+}
